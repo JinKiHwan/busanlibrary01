@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" user-scalable=no>
+  <title>부산도서관</title>
+
+  <!-- font -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="font.css">
+
+  <!-- css -->
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/fullpage.min.css">
+  <link rel="stylesheet" href="css/main.css" type="text/css">
+  <!-- js -->
+  <script src="js/jquery-3.6.1.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/fullpage.min.js"></script>
+  <script src="js/swiper-slide.js"></script>
+  <script src="js/common.js"></script>
+
+</head>
+
+<body>
+  <div class="mgnb_wrap">
+    <ul class="mgnb">
+      <li><a href="#">부산도서관</a>
+        <ul class="mdepth2">
+          <li><a href="#">도서관 정책</a></li>
+          <li><a href="#">연혁</a></li>
+          <li><a href="#">도서관 내부</a></li>
+          <li><a href="#">찾아오는 길</a></li>
+        </ul><!-- depth2 -->
+      </li>
+      <li><a href="#">책대여</a>
+        <ul class="mdepth2">
+          <li><a href="#">책 검색</a></li>
+          <li><a href="#">추천하는 책</a></li>
+          <li><a href="#">대출이 많은 책</a></li>
+          <li><a href="#">새로 들어온 책</a></li>
+        </ul><!-- depth2 -->
+      </li>
+      <li><a href="#">도서관 소식</a>
+        <ul class="mdepth2">
+          <li><a href="#">문화 행사</a></li>
+          <li><a href="#">강좌 안내</a></li>
+          <li><a href="#">전시 행사</a></li>
+        </ul><!-- depth2 -->
+      </li>
+      <li><a href="#">후원</a>
+        <ul class="mdepth2">
+          <li><a href="#">후원소개</a></li>
+          <li><a href="#">후원신청</a></li>
+          <li><a href="#">기부금 영수증</a></li>
+        </ul><!-- depth2 -->
+      </li>
+      <li><a href="#">소통공간</a>
+        <ul class="mdepth2">
+          <li><a href="#">공지사항</a></li>
+          <li><a href="#">보도자료</a></li>
+          <li><a href="#">커뮤니티</a></li>
+          <li><a href="#">뉴스레터</a></li>
+        </ul><!-- depth2 -->
+      </li>
+    </ul><!-- gnb -->
+    <p class="mgnb_close"><a href="#">close</a></p>
+  </div>
+
+  <div class="search">
+    <input type="text" placeholder="검색어를 입력하세요"><input type="submit" class="search_close">
+  </div>
+
+  <header id="header">
+    <div class="inner">
+      <h1><a href="index.html"><img src="img/common/logo-w.png" alt="부산도서관"></a></h1>
+      <nav>
+        <ul class="gnb">
+          <li><a href="#">부산도서관</a>
+            <ul class="depth2">
+              <li><a href="#">도서관 정책</a></li>
+              <li><a href="#">연혁</a></li>
+              <li><a href="#">도서관 내부</a></li>
+              <li><a href="#">찾아오는 길</a></li>
+            </ul><!-- depth2 -->
+          </li>
+          <li><a href="#">책대여</a>
+            <ul class="depth2">
+              <li><a href="#">책 검색</a></li>
+              <li><a href="#">추천하는 책</a></li>
+              <li><a href="#">대출이 많은 책</a></li>
+              <li><a href="#">새로 들어온 책</a></li>
+            </ul><!-- depth2 -->
+          </li>
+          <li><a href="#">도서관 소식</a>
+            <ul class="depth2">
+              <li><a href="#">문화 행사</a></li>
+              <li><a href="#">강좌 안내</a></li>
+              <li><a href="#">전시 행사</a></li>
+            </ul><!-- depth2 -->
+          </li>
+          <li><a href="#">후원</a>
+            <ul class="depth2">
+              <li><a href="#">후원소개</a></li>
+              <li><a href="#">후원신청</a></li>
+              <li><a href="#">기부금 영수증</a></li>
+            </ul><!-- depth2 -->
+          </li>
+          <li><a href="#">소통공간</a>
+            <ul class="depth2">
+              <li><a href="#">공지사항</a></li>
+              <li><a href="#">보도자료</a></li>
+              <li><a href="#">커뮤니티</a></li>
+              <li><a href="#">뉴스레터</a></li>
+            </ul><!-- depth2 -->
+          </li>
+        </ul><!-- gnb -->
+      </nav>
+
+      <ul class="util">
+        <li><a href="#"><img src="img/common/search.png" alt="검색"></a></li>
+        <li class="ham"><a href="#"><img src="img/common/hamburger.png" alt="메뉴"></a></li>
+        <li class="m_ham"><a href="#"><img src="img/common/hamburger.png" alt="메뉴"></a></li>
+      </ul>
+    </div><!--  -->
+  </header>
+  <div id="fullpage">
+
+    <div id="mainvisual" class="section">
+      <div class="mouse">
+        <img src="img/main/ico_mouse.png" alt="마우스">
+      </div>
+      <div class="slider-for">
+        <div class="mv_box mv_box01">
+          <div class="inner">
+            <div class="mv_content">
+              <div class="mv_img">
+                <img src="img/main/main_visual/book01.jpg" alt="이어령의 마지막수업">
+              </div>
+              <div class="mv_txt">
+                <h4>시대의 지성 이어령과
+                  <br>‘인터스텔라’ 김지수의 ‘라스트 인터뷰’
+                  <br>삶과 죽음에 대한 마지막 인생 수업
+                </h4>
+                <p>“ 나는 이제부터 자네와 아주 중요한 이야기를 시작하려 하네.
+                  <br>이 모든 것은 내가 죽음과 죽기 살기로 팔씨름을 하며 깨달은 것들이야. 이해하겠나?
+                  <br>어둠의 팔뚝을 넘어뜨리고 받은 전리품 같은 것이지. ”
+                </p>
+              </div>
+            </div>
+          </div><!-- inner -->
+        </div><!-- mv_box -->
+
+        <div class="mv_box mv_box02">
+          <div class="inner">
+            <div class="mv_content">
+              <div class="mv_img">
+                <img src="img/main/main_visual/book02.jpg" alt="이어령의 마지막수업">
+              </div>
+              <div class="mv_txt">
+                <h4>시대의 지성 이어령과
+                  <br>‘인터스텔라’ 김지수의 ‘라스트 인터뷰’
+                  <br>삶과 죽음에 대한 마지막 인생 수업
+                </h4>
+                <p>“ 나는 이제부터 자네와 아주 중요한 이야기를 시작하려 하네.
+                  <br>이 모든 것은 내가 죽음과 죽기 살기로 팔씨름을 하며 깨달은 것들이야. 이해하겠나?
+                  <br>어둠의 팔뚝을 넘어뜨리고 받은 전리품 같은 것이지. ”
+                </p>
+              </div>
+            </div>
+          </div><!-- inner -->
+        </div><!-- mv_box -->
+
+        <div class="mv_box mv_box03">
+          <div class="inner">
+            <div class="mv_content">
+              <div class="mv_img">
+                <img src="img/main/main_visual/book03.jpg" alt="이어령의 마지막수업">
+              </div>
+              <div class="mv_txt">
+                <h4>시대의 지성 이어령과
+                  <br>‘인터스텔라’ 김지수의 ‘라스트 인터뷰’
+                  <br>삶과 죽음에 대한 마지막 인생 수업
+                </h4>
+                <p>“ 나는 이제부터 자네와 아주 중요한 이야기를 시작하려 하네.
+                  <br>이 모든 것은 내가 죽음과 죽기 살기로 팔씨름을 하며 깨달은 것들이야. 이해하겠나?
+                  <br>어둠의 팔뚝을 넘어뜨리고 받은 전리품 같은 것이지. ”
+                </p>
+              </div>
+            </div>
+          </div><!-- inner -->
+        </div><!-- mv_box -->
+
+        <div class="mv_box mv_box04">
+          <div class="inner">
+            <div class="mv_content">
+              <div class="mv_img">
+                <img src="img/main/main_visual/book04.jpg" alt="이어령의 마지막수업">
+              </div>
+              <div class="mv_txt">
+                <h4>시대의 지성 이어령과
+                  <br>‘인터스텔라’ 김지수의 ‘라스트 인터뷰’
+                  <br>삶과 죽음에 대한 마지막 인생 수업
+                </h4>
+                <p>“ 나는 이제부터 자네와 아주 중요한 이야기를 시작하려 하네.
+                  <br>이 모든 것은 내가 죽음과 죽기 살기로 팔씨름을 하며 깨달은 것들이야. 이해하겠나?
+                  <br>어둠의 팔뚝을 넘어뜨리고 받은 전리품 같은 것이지. ”
+                </p>
+              </div>
+            </div>
+          </div><!-- inner -->
+        </div><!-- mv_box -->
+
+        <div class="mv_box mv_box05">
+          <div class="inner">
+            <div class="mv_content">
+              <div class="mv_img">
+                <img src="img/main/main_visual/book05.jpg" alt="이어령의 마지막수업">
+              </div>
+              <div class="mv_txt">
+                <h4>시대의 지성 이어령과
+                  <br>‘인터스텔라’ 김지수의 ‘라스트 인터뷰’
+                  <br>삶과 죽음에 대한 마지막 인생 수업
+                </h4>
+                <p>“ 나는 이제부터 자네와 아주 중요한 이야기를 시작하려 하네.
+                  <br>이 모든 것은 내가 죽음과 죽기 살기로 팔씨름을 하며 깨달은 것들이야. 이해하겠나?
+                  <br>어둠의 팔뚝을 넘어뜨리고 받은 전리품 같은 것이지. ”
+                </p>
+              </div>
+            </div>
+          </div><!-- inner -->
+        </div><!-- mv_box -->
+
+        <div class="mv_box mv_box06">
+          <div class="inner">
+            <div class="mv_content">
+              <div class="mv_img">
+                <img src="img/main/main_visual/book06.jpg" alt="이어령의 마지막수업">
+              </div>
+              <div class="mv_txt">
+                <h4>시대의 지성 이어령과
+                  <br>‘인터스텔라’ 김지수의 ‘라스트 인터뷰’
+                  <br>삶과 죽음에 대한 마지막 인생 수업
+                </h4>
+                <p>“ 나는 이제부터 자네와 아주 중요한 이야기를 시작하려 하네.
+                  <br>이 모든 것은 내가 죽음과 죽기 살기로 팔씨름을 하며 깨달은 것들이야. 이해하겠나?
+                  <br>어둠의 팔뚝을 넘어뜨리고 받은 전리품 같은 것이지. ”
+                </p>
+              </div>
+            </div>
+          </div><!-- inner -->
+        </div><!-- mv_box -->
+
+        <div class="mv_box mv_box07">
+          <div class="inner">
+            <div class="mv_content">
+              <div class="mv_img">
+                <img src="img/main/main_visual/book07.jpg" alt="이어령의 마지막수업">
+              </div>
+              <div class="mv_txt">
+                <h4>시대의 지성 이어령과
+                  <br>‘인터스텔라’ 김지수의 ‘라스트 인터뷰’
+                  <br>삶과 죽음에 대한 마지막 인생 수업
+                </h4>
+                <p>“ 나는 이제부터 자네와 아주 중요한 이야기를 시작하려 하네.
+                  <br>이 모든 것은 내가 죽음과 죽기 살기로 팔씨름을 하며 깨달은 것들이야. 이해하겠나?
+                  <br>어둠의 팔뚝을 넘어뜨리고 받은 전리품 같은 것이지. ”
+                </p>
+              </div>
+            </div>
+          </div><!-- inner -->
+        </div><!-- mv_box -->
+
+        <div class="mv_box mv_box08">
+          <div class="inner">
+            <div class="mv_content">
+              <div class="mv_img">
+                <img src="img/main/main_visual/book08.jpg" alt="이어령의 마지막수업">
+              </div>
+              <div class="mv_txt">
+                <h4>시대의 지성 이어령과
+                  <br>‘인터스텔라’ 김지수의 ‘라스트 인터뷰’
+                  <br>삶과 죽음에 대한 마지막 인생 수업
+                </h4>
+                <p>“ 나는 이제부터 자네와 아주 중요한 이야기를 시작하려 하네.
+                  <br>이 모든 것은 내가 죽음과 죽기 살기로 팔씨름을 하며 깨달은 것들이야. 이해하겠나?
+                  <br>어둠의 팔뚝을 넘어뜨리고 받은 전리품 같은 것이지. ”
+                </p>
+              </div>
+            </div>
+          </div><!-- inner -->
+        </div><!-- mv_box -->
+
+        <div class="mv_box mv_box09">
+          <div class="inner">
+            <div class="mv_content">
+              <div class="mv_img">
+                <img src="img/main/main_visual/book09.jpg" alt="이어령의 마지막수업">
+              </div>
+              <div class="mv_txt">
+                <h4>시대의 지성 이어령과
+                  <br>‘인터스텔라’ 김지수의 ‘라스트 인터뷰’
+                  <br>삶과 죽음에 대한 마지막 인생 수업
+                </h4>
+                <p>“ 나는 이제부터 자네와 아주 중요한 이야기를 시작하려 하네.
+                  <br>이 모든 것은 내가 죽음과 죽기 살기로 팔씨름을 하며 깨달은 것들이야. 이해하겠나?
+                  <br>어둠의 팔뚝을 넘어뜨리고 받은 전리품 같은 것이지. ”
+                </p>
+              </div>
+            </div>
+          </div><!-- inner -->
+        </div><!-- mv_box -->
+
+        <div class="mv_box mv_box10">
+          <div class="inner">
+            <div class="mv_content">
+              <div class="mv_img">
+                <img src="img/main/main_visual/book10.jpg" alt="이어령의 마지막수업">
+              </div>
+              <div class="mv_txt">
+                <h4>시대의 지성 이어령과
+                  <br>‘인터스텔라’ 김지수의 ‘라스트 인터뷰’
+                  <br>삶과 죽음에 대한 마지막 인생 수업
+                </h4>
+                <p>“ 나는 이제부터 자네와 아주 중요한 이야기를 시작하려 하네.
+                  <br>이 모든 것은 내가 죽음과 죽기 살기로 팔씨름을 하며 깨달은 것들이야. 이해하겠나?
+                  <br>어둠의 팔뚝을 넘어뜨리고 받은 전리품 같은 것이지. ”
+                </p>
+              </div>
+            </div>
+          </div><!-- inner -->
+        </div><!-- mv_box -->
+
+        <div class="mv_box mv_box11">
+          <div class="inner">
+            <div class="mv_content">
+              <div class="mv_img">
+                <img src="img/main/main_visual/book11.jpg" alt="이어령의 마지막수업">
+              </div>
+              <div class="mv_txt">
+                <h4>시대의 지성 이어령과
+                  <br>‘인터스텔라’ 김지수의 ‘라스트 인터뷰’
+                  <br>삶과 죽음에 대한 마지막 인생 수업
+                </h4>
+                <p>“ 나는 이제부터 자네와 아주 중요한 이야기를 시작하려 하네.
+                  <br>이 모든 것은 내가 죽음과 죽기 살기로 팔씨름을 하며 깨달은 것들이야. 이해하겠나?
+                  <br>어둠의 팔뚝을 넘어뜨리고 받은 전리품 같은 것이지. ”
+                </p>
+              </div>
+            </div>
+          </div><!-- inner -->
+        </div><!-- mv_box -->
+      </div><!-- slider-for -->
+      <div class="thumb_box">
+        <div class="inner">
+          <div class="slider-nav">
+            <div class="nav_box"><img src="img/main/main_visual/book01.jpg" alt="이어령의 마지막 수업"></div>
+            <div class="nav_box"><img src="img/main/main_visual/book02.jpg" alt="여행의 이유"></div>
+            <div class="nav_box"><img src="img/main/main_visual/book03.jpg" alt="인간관계론"></div>
+            <div class="nav_box"><img src="img/main/main_visual/book04.jpg" alt="싱크 엑설런트"></div>
+            <div class="nav_box"><img src="img/main/main_visual/book05.jpg" alt="도스토옙스키가 사랑한 그림들"></div>
+            <div class="nav_box"><img src="img/main/main_visual/book06.jpg" alt="합격공식"></div>
+            <div class="nav_box"><img src="img/main/main_visual/book07.jpg" alt="동남아 한 달 살기"></div>
+            <div class="nav_box"><img src="img/main/main_visual/book08.jpg" alt="어떻게 여행가방에 고래를 넣을까?"></div>
+            <div class="nav_box"><img src="img/main/main_visual/book09.jpg" alt="하얼빈"></div>
+            <div class="nav_box"><img src="img/main/main_visual/book10.jpg" alt="위어드"></div>
+            <div class="nav_box"><img src="img/main/main_visual/book11.jpg" alt="기소영의 친구들"></div>
+
+          </div>
+        </div>
+      </div>
+
+    </div><!-- section -->
+    <!-- mainvisual -->
+    <div id="culture" class="section">
+      <div class="inner clearfix">
+        <div class="culture_txt">
+          <h2>Culture program</h2>
+          <p class="section_tit">부산도서관 행사</p>
+          <p class="section_txt">오직 부산도서관에서만
+            <br>만날 수 있는 문화교육 프로그램
+          </p>
+          <a href="#" class="detail_more">더 보기</a>
+        </div>
+
+        <div class="culture_slide">
+          <div class="swiper culture_swiper">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide"><a href="#"><img src="img/section2.jpg" alt="" style="filter: blur(20px);"></a>
+              </li>
+              <li class="swiper-slide"><a href="#"><img src="img/section2.jpg" alt=""></a></li>
+              <li class="swiper-slide"><a href="#"><img src="img/section2.jpg" alt=""></a></li>
+            </ul><!-- swiper-wrapper -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+
+          </div><!-- swiper -->
+        </div><!-- culture_slide -->
+      </div><!-- inner -->
+    </div><!-- culture -->
+
+
+    <div id="bookstory" class="section">
+      <div class="inner clearfix">
+        <div class="bookstory_title">
+          <h2>Book Story</h2>
+          <p class="section_tit">책을 읽읍시다</p>
+          <div class="btn_box">
+            <div class="btn recommend">
+              <p class="on">추천 도서</p>
+            </div><!-- btn -->
+            <div class="btn newbook">
+              <p>새로 들어온 책</p>
+            </div><!-- btn -->
+            <div class="btn popularity">
+              <p>대출이 많은 책</p>
+            </div><!-- btn -->
+          </div><!-- btnbox -->
+        </div><!-- bookstory_title -->
+
+
+        <div class="swiper bookstory_slide01">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide"><a href="#">
+                <img src="img/main/main_visual/book01.jpg" alt="">
+                <dl>
+                  <dt>책제목</dt>
+                  <dd>작가명</dd>
+                </dl>
+              </a></li>
+
+            <li class="swiper-slide"><a href="#">
+                <img src="img/main/main_visual/book01.jpg" alt="">
+                <dl>
+                  <dt>책제목</dt>
+                  <dd>작가명</dd>
+                </dl>
+              </a></li>
+
+            <li class="swiper-slide"><a href="#">
+                <img src="img/main/main_visual/book01.jpg" alt="">
+                <dl>
+                  <dt>책제목</dt>
+                  <dd>작가명</dd>
+                </dl>
+              </a></li>
+
+            <li class="swiper-slide"><a href="#">
+                <img src="img/main/main_visual/book01.jpg" alt="">
+                <dl>
+                  <dt>책제목</dt>
+                  <dd>작가명</dd>
+                </dl>
+              </a></li>
+
+            <li class="swiper-slide"><a href="#">
+                <img src="img/main/main_visual/book01.jpg" alt="">
+                <dl>
+                  <dt>책제목</dt>
+                  <dd>작가명</dd>
+                </dl>
+              </a></li>
+
+            <li class="swiper-slide"><a href="#">
+                <img src="img/main/main_visual/book01.jpg" alt="">
+                <dl>
+                  <dt>책제목</dt>
+                  <dd>작가명</dd>
+                </dl>
+              </a></li>
+            <li class="swiper-slide"><a href="#">
+                <img src="img/main/main_visual/book01.jpg" alt="">
+                <dl>
+                  <dt>책제목</dt>
+                  <dd>작가명</dd>
+                </dl>
+              </a></li>
+            <li class="swiper-slide"><a href="#">
+                <img src="img/main/main_visual/book01.jpg" alt="">
+                <dl>
+                  <dt>책제목</dt>
+                  <dd>작가명</dd>
+                </dl>
+              </a></li>
+          </ul>
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+
+        <!-- +++++++++++++++++++++2번 스와이퍼 +++++++++++++++++++++-->
+
+        <div class="swiper bookstory_slide02">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide"><a href="#">
+                <img src="img/main/main_visual/book02.jpg" alt="">
+                <dl>
+                  <dt>책제목</dt>
+                  <dd>작가명</dd>
+                </dl>
+              </a></li>
+
+            <li class="swiper-slide"><a href="#">
+                <img src="img/main/main_visual/book02.jpg" alt="">
+                <dl>
+                  <dt>책제목</dt>
+                  <dd>작가명</dd>
+                </dl>
+              </a></li>
+
+            <li class="swiper-slide"><a href="#">
+                <img src="img/main/main_visual/book02.jpg" alt="">
+                <dl>
+                  <dt>책제목</dt>
+                  <dd>작가명</dd>
+                </dl>
+              </a></li>
+
+            <li class="swiper-slide"><a href="#">
+                <img src="img/main/main_visual/book02.jpg" alt="">
+                <dl>
+                  <dt>책제목</dt>
+                  <dd>작가명</dd>
+                </dl>
+              </a></li>
+
+            <li class="swiper-slide"><a href="#">
+                <img src="img/main/main_visual/book02.jpg" alt="">
+                <dl>
+                  <dt>책제목</dt>
+                  <dd>작가명</dd>
+                </dl>
+              </a></li>
+
+            <li class="swiper-slide"><a href="#">
+                <img src="img/main/main_visual/book02.jpg" alt="">
+                <dl>
+                  <dt>책제목</dt>
+                  <dd>작가명</dd>
+                </dl>
+              </a></li>
+            <li class="swiper-slide"><a href="#">
+                <img src="img/main/main_visual/book02.jpg" alt="">
+                <dl>
+                  <dt>책제목</dt>
+                  <dd>작가명</dd>
+                </dl>
+              </a></li>
+            <li class="swiper-slide"><a href="#">
+                <img src="img/main/main_visual/book02.jpg" alt="">
+                <dl>
+                  <dt>책제목</dt>
+                  <dd>작가명</dd>
+                </dl>
+              </a></li>
+          </ul>
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+
+        <!--+++++++++++++++++ 3번째 스와이퍼+++++++++++++++++++ -->
+        <div class="swiper bookstory_slide03">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide"><a href="#">
+                <img src="img/main/main_visual/book03.jpg" alt="">
+                <dl>
+                  <dt>책제목</dt>
+                  <dd>작가명</dd>
+                </dl>
+              </a></li>
+
+            <li class="swiper-slide"><a href="#">
+                <img src="img/main/main_visual/book03.jpg" alt="">
+                <dl>
+                  <dt>책제목</dt>
+                  <dd>작가명</dd>
+                </dl>
+              </a></li>
+
+            <li class="swiper-slide"><a href="#">
+                <img src="img/main/main_visual/book03.jpg" alt="">
+                <dl>
+                  <dt>책제목</dt>
+                  <dd>작가명</dd>
+                </dl>
+              </a></li>
+
+            <li class="swiper-slide"><a href="#">
+                <img src="img/main/main_visual/book03.jpg" alt="">
+                <dl>
+                  <dt>책제목</dt>
+                  <dd>작가명</dd>
+                </dl>
+              </a></li>
+
+            <li class="swiper-slide"><a href="#">
+                <img src="img/main/main_visual/book03.jpg" alt="">
+                <dl>
+                  <dt>책제목</dt>
+                  <dd>작가명</dd>
+                </dl>
+              </a></li>
+
+            <li class="swiper-slide"><a href="#">
+                <img src="img/main/main_visual/book03.jpg" alt="">
+                <dl>
+                  <dt>책제목</dt>
+                  <dd>작가명</dd>
+                </dl>
+              </a></li>
+            <li class="swiper-slide"><a href="#">
+                <img src="img/main/main_visual/book03.jpg" alt="">
+                <dl>
+                  <dt>책제목</dt>
+                  <dd>작가명</dd>
+                </dl>
+              </a></li>
+            <li class="swiper-slide"><a href="#">
+                <img src="img/main/main_visual/book03.jpg" alt="">
+                <dl>
+                  <dt>책제목</dt>
+                  <dd>작가명</dd>
+                </dl>
+              </a></li>
+          </ul>
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+
+
+
+        <div class="wave">
+          <img src="img/main/SVG/Asset 1.svg" alt="wave1">
+          <img src="img/main/SVG/Asset 2.svg" alt="wave2">
+          <img src="img/main/SVG/Asset 3.svg" alt="wave3">
+        </div>
+
+        <div class="wave02">
+          <img src="img/main/SVG/Asset 1.svg" alt="wave1">
+          <img src="img/main/SVG/Asset 3.svg" alt="wave2">
+          <img src="img/main/SVG/Asset 2.svg" alt="wave3">
+        </div>
+      </div><!-- inner -->
+
+    </div>
+    <div class="section" id="gallery">
+      <div class="inner">
+        <div class="gallery_txt">
+          <h2>Gallery</h2>
+          <p class="section_tit">도서관 둘러보기</p>
+        </div><!-- TXT -->
+
+        <div class="swiper gallery_swiper">
+          <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+              <div class="introduce">
+                <p>책 누리터</p>
+                <a href="#">view more</a>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="introduce">
+                <p>책 누리터</p>
+                <a href="#">view more</a>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="introduce">
+                <p>책 누리터</p>
+                <a href="#">view more</a>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="introduce">
+                <p>책 누리터</p>
+                <a href="#">view more</a>
+              </div>
+            </li>
+            <li class="swiper-slide">
+              <div class="introduce">
+                <p>책 누리터</p>
+                <a href="#">view more</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="gallery-button-next"></div>
+        <div class="gallery-button-prev"></div>
+      </div>
+
+    </div>
+    <div id="comunity" class="section">
+      <div class="inner">
+        <div class="comunity_txt">
+          <h2>Comunity</h2>
+          <p class="section_tit">소통공간</p>
+        </div>
+
+        <div class="comunity_area clearfix">
+          <ul class="notice">
+            <li><span class="color">공지</span>사항 <span class="all"><a href="#"> 전체보기</a></span></li>
+            <li class="notice_news clearfix">
+              <a href="#">
+                <dl>
+                  <dt class="date"><span>31</span>
+                    <br>2022.11
+                  </dt>
+                  <dl class="notice_txt">
+                    <dt>부산도서관 홈페이지 만족도 설문 조사</dt>
+                    <dd>안녕하십니까? 부산도서관에서는 홈페이지 4종 (부산도서관, 도서관포털,전자도서관, 부산학 디지털 아 카이브)에 대한 이용자가 느끼는...</dd>
+                  </dl>
+                </dl>
+              </a>
+            </li>
+            <li class="notice_news"><a href="#">부산도서관 국악 초청공연</a></li>
+            <li class="notice_news"><a href="#">점자네임텍 및 크리스마스트리 만들기 체험프로그램 수강생 모집</a></li>
+            <li class="notice_news"><a href="#">이기훈 그림책작가 원화전 및 북토크 안내</a></li>
+          </ul>
+
+          <ul class="news">
+            <li><span class="color">보도</span>자료 <span class="all"><a href="#"> 전체보기</a></span></li>
+            <li class="news_news clearfix">
+              <a href="#">
+                <dl>
+                  <dt class="date"><span>31</span>
+                    <br>2022.11
+                  </dt>
+                  <dl class="news_txt">
+                    <dt>부산도서관 홈페이지 만족도 설문 조사</dt>
+                    <dd>안녕하십니까? 부산도서관에서는 홈페이지 4종 (부산도서관, 도서관포털,전자도서관, 부산학 디지털 아 카이브)에 대한 이용자가 느끼는...</dd>
+                  </dl>
+                </dl>
+              </a>
+            </li>
+            <li class="news_news"><a href="#">부산도서관 국악 초청공연</a></li>
+            <li class="news_news"><a href="#">점자네임텍 및 크리스마스트리 만들기 체험프로그램 수강생 모집</a></li>
+            <li class="news_news"><a href="#">이기훈 그림책작가 원화전 및 북토크 안내</a></li>
+          </ul>
+        </div><!-- area -->
+
+        <div class="train">
+          <div class="train_left">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+
+          <div class="train_right">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </div><!-- inner -->
+    </div><!-- comunity -->
+
+
+    <footer id="footer" class="section fp-auto-height">
+      <div class="swiper sponsor">
+        <ul class="swiper-wrapper">
+          <li class="swiper-slide"><img src="img/support/mbn_01.png" alt=""></li>
+          <li class="swiper-slide"><img src="img/support/mbn_02.png" alt=""></li>
+          <li class="swiper-slide"><img src="img/support/mbn_03.png" alt=""></li>
+          <li class="swiper-slide"><img src="img/support/mbn_04.png" alt=""></li>
+          <li class="swiper-slide"><img src="img/support/mbn_05.png" alt=""></li>
+          <li class="swiper-slide"><img src="img/support/mbn_06.png" alt=""></li>
+          <li class="swiper-slide"><img src="img/support/mbn_07.png" alt=""></li>
+          <li class="swiper-slide"><img src="img/support/mbn_08.png" alt=""></li>
+          <li class="swiper-slide"><img src="img/support/mbn_09.png" alt=""></li>
+          <li class="swiper-slide"><img src="img/support/mbn_10.png" alt=""></li>
+          <li class="swiper-slide"><img src="img/support/mbn_11.png" alt=""></li>
+          <li class="swiper-slide"><img src="img/support/mbn_12.png" alt=""></li>
+          <li class="swiper-slide"><img src="img/support/mbn_13.png" alt=""></li>
+          <li class="swiper-slide"><img src="img/support/mbn_14.png" alt=""></li>
+          <li class="swiper-slide"><img src="img/support/mbn_15.png" alt=""></li>
+          <li class="swiper-slide"><img src="img/support/mbn_16.png" alt=""></li>
+          <li class="swiper-slide"><img src="img/support/mbn_17.png" alt=""></li>
+          <li class="swiper-slide"><img src="img/support/mbn_18.png" alt=""></li>
+          <li class="swiper-slide"><img src="img/support/mbn_19.png" alt=""></li>
+          <li class="swiper-slide"><img src="img/support/mbn_20.png" alt=""></li>
+          <li class="swiper-slide"><img src="img/support/mbn_21.png" alt=""></li>
+          <li class="swiper-slide"><img src="img/support/mbn_22.png" alt=""></li>
+
+        </ul>
+      </div>
+
+
+      <div class="footer_top">
+        <div class="inner">
+          <ul class="footer_link">
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">저작권보호정책</a></li>
+            <li><a href="#">키보드보안프로그램설치안내</a></li>
+          </ul>
+
+          <div class="footer_link02">
+            <div class="select_box01">
+              <select name="" id="">
+                <option value="부산공공도서관">부산공공도서관</option>
+                <option value="">2</option>
+                <option value="">3</option>
+              </select><input type="submit" value="이동">
+            </div>
+
+            <div class="select_box02">
+              <select name="" id="">
+                <option value="">타지역 도서관</option>
+                <option value="">2</option>
+                <option value="">3</option>
+              </select><input type="submit" value="이동">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer_bottom">
+        <div class="inner">
+          <div class="footer_logo">
+            <img src="img/common/footer_logo.svg" alt="푸터로고">
+          </div>
+          <div class="copy">
+            <p>(46949) 부산광역시 사상구 사상로310번길 33(덕포동) 전화 051-310-5400 / 팩스 051-310-5429
+              <br>Copyright © Busan Metropolitan Library, All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div><!-- fullpage -->
+
+</body>
+
+</html>
