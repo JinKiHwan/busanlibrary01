@@ -15,7 +15,7 @@ $(document).ready(function () {
 
 
   $('.mgnb_wrap').hide();
-  $('.m_ham').click(function () {
+  $('.ham').click(function () {
       $('.mgnb_wrap').fadeIn();
   });
   $('.mgnb_close').click(function () {

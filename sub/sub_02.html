@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>부산도서관</title>
+
+  <!-- font -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../font.css">
+
+  <!-- css -->
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/aos.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../css/sub02.css" type="text/css">
+  <!-- js -->
+  <script src="../js/jquery-3.6.1.min.js"></script>
+  <script src="../js/aos.js"></script>
+  <script src="../js/sub.js"></script>
+
+
+</head>
+
+<body>
+  <header id="header">
+    <div class="inner">
+      <h1><a href="../index.html"><img src="../img/common/logo-w.png" alt="부산도서관"></a></h1>
+      <nav>
+        <ul class="gnb">
+          <li><a href="sub_01.html">부산도서관</a>
+            <ul class="depth2">
+              <li><a href="sub_01.html">도서관 정책</a></li>
+              <li><a href="#">연혁</a></li>
+              <li><a href="#">도서관 내부</a></li>
+              <li><a href="#">찾아오는 길</a></li>
+            </ul><!-- depth2 -->
+          </li>
+          <li><a href="sub_02.html">책대여</a>
+            <ul class="depth2">
+              <li><a href="sub_02.html">책 검색</a></li>
+              <li><a href="#">추천하는 책</a></li>
+              <li><a href="#">대출이 많은 책</a></li>
+              <li><a href="#">새로 들어온 책</a></li>
+            </ul><!-- depth2 -->
+          </li>
+          <li><a href="sub_03.html">도서관 소식</a>
+            <ul class="depth2">
+              <li><a href="sub_03.html">문화 행사</a></li>
+              <li><a href="sub_03.html">강좌 안내</a></li>
+              <li><a href="#">전시 행사</a></li>
+            </ul><!-- depth2 -->
+          </li>
+          <li><a href="sub_04.html">후원</a>
+            <ul class="depth2">
+              <li><a href="sub_04.html">후원소개</a></li>
+              <li><a href="#">후원신청</a></li>
+              <li><a href="#">기부금 영수증</a></li>
+            </ul><!-- depth2 -->
+          </li>
+          <li><a href="sub_05.html">소통공간</a>
+            <ul class="depth2">
+              <li><a href="sub_05.html">공지사항</a></li>
+              <li><a href="sub_05.html">보도자료</a></li>
+              <li><a href="sub_05.html">커뮤니티</a></li>
+              <li><a href="sub_05.html">뉴스레터</a></li>
+            </ul><!-- depth2 -->
+          </li>
+        </ul><!-- gnb -->
+      </nav>
+
+      <ul class="util">
+        <li><img src="../img/common/search.png" alt="검색"></li>
+        <li class="ham"><img src="../img/common/hamburger.png" alt="메뉴"></a></li>
+      </ul>
+    </div><!--  -->
+  </header>
+
+
+
+
+
+  <section id="section">
+    <div class="sub_visual">
+      <div class="sub_titlebox">
+        <div class="sub_tit">
+          <h2>책 검색</h2>
+          <ul>
+            <li><a href="../index.html"><img src="../img/sub/home.svg" alt="메인페이지"></a></li>
+            <li><img src="../img/sub/next.svg" alt="다음"></li>
+            <li><a href="#">책 대여</a></li>
+            <li><img src="../img/sub/next.svg" alt="다음"></li>
+            <li><a href="#">책 검색</a></li>
+          </ul>
+        </div><!-- tit -->
+      </div><!-- titlebox -->
+      <div class="wave">
+        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+          <defs>
+            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+          </defs>
+          <g class="parallax">
+            <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(22,95,231,0.3" />
+            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(22,95,231,0.5)" />
+            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(22,95,231,0.7)" />
+            <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+          </g>
+        </svg>
+      </div>
+    </div>
+    <!-- 서브비주얼 -->
+    <div class="sub_content">
+      <div class="inner clearfix">
+        <ul class="lnb">
+          <li class="lnb_tit"><a href="#">책대여</a></li>
+          <li class="on"><a href="#">책 검색</a></li>
+          <li><a href="#">추천하는 책</a></li>
+          <li><a href="#">대출이 많은 책</a></li>
+          <li><a href="#">새로 들어온 책</a></li>
+          <li><a href="#">이용서비스 안내</a></li>
+        </ul>
+
+        <div class="sub_contents">
+          <h2>책 검색</h2>
+          <div class="book_search">
+            <input type="text" placeholder="책 이름을 검색하세요"><input type="submit">
+          </div>
+
+          <ul class="filter">
+            <li class="on">전체보기</li>
+            <li>ㄱ</li>
+            <li>ㄴ</li>
+            <li>ㄷ</li>
+            <li>ㄹ</li>
+            <li>ㅁ</li>
+            <li>ㅂ</li>
+            <li>ㅅ</li>
+            <li>ㅇ</li>
+            <li>ㅈ</li>
+            <li>ㅊ</li>
+            <li>ㅋ</li>
+            <li>ㅌ</li>
+            <li>ㅍ</li>
+            <li>ㅎ</li>
+            <li>A</li>
+            <li>B</li>
+            <li>C</li>
+            <li>D</li>
+            <li>E</li>
+            <li>F</li>
+            <li>G</li>
+            <li>H</li>
+            <li>I</li>
+            <li>J</li>
+            <li>K</li>
+            <li>L</li>
+            <li>M</li>
+            <li>N</li>
+            <li>O</li>
+            <li>P</li>
+            <li>Q</li>
+            <li>R</li>
+            <li>S</li>
+            <li>T</li>
+            <li>U</li>
+            <li>V</li>
+            <li>W</li>
+            <li>X</li>
+            <li>Y</li>
+            <li>Z</li>
+            <li>1~9</li>
+          </ul>
+
+          <ul class="book_list">
+            <li>
+              <ul class="book_list_01">
+                <li class="book_img"><img src="../img/sub/book_list_01.jpg" alt=""></li>
+                <li class="book_name">역행자</li>
+                <li class="writer">자청</li>
+              </ul>
+            </li>
+            <li>
+              <ul class="book_list_02">
+                <li class="book_img"><img src="../img/sub/book_list_02.jpg" alt=""></li>
+                <li class="book_name">모든 소년이 파랗지는 않다</li>
+                <li class="writer">정세랑</li>
+              </ul>
+            </li>
+            <li>
+              <ul class="book_list_03">
+                <li class="book_img"><img src="../img/sub/book_list_03.jpg" alt=""></li>
+                <li class="book_name">기소영의 친구들</li>
+                <li class="writer">정은주, 해랑</li>
+              </ul>
+            </li>
+            <li>
+              <ul class="book_list_04">
+                <li class="book_img"><img src="../img/sub/book_list_04.jpg" alt=""></li>
+                <li class="book_name">공간의 미래</li>
+                <li class="writer">유현준</li>
+              </ul>
+            </li>
+            <li>
+              <ul class="book_list_05">
+                <li class="book_img"><img src="../img/sub/book_list_05.jpg" alt=""></li>
+                <li class="book_name">아버지의 해방일지</li>
+                <li class="writer">정지아</li>
+              </ul>
+            </li>
+            <li>
+              <ul class="book_list_06">
+                <li class="book_img"><img src="../img/sub/book_list_06.jpg" alt=""></li>
+                <li class="book_name">속도의 안내자</li>
+                <li class="writer">이정연</li>
+              </ul>
+            </li>
+            <li>
+              <ul class="book_list_07">
+                <li class="book_img"><img src="../img/sub/book_list_07.jpg" alt=""></li>
+                <li class="book_name">존엄을 외쳐요</li>
+                <li class="writer">김은하,윤예지</li>
+              </ul>
+            </li>
+          </ul><!-- book_list -->
+
+          <ul class="pagenation">
+            <li><i class="bi bi-chevron-left"></i></li>
+            <li class="on">1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+            <li><i class="bi bi-chevron-right"></i></li>
+          </ul>
+
+        </div><!-- contents -->
+      </div>
+    </div>
+
+
+
+
+  </section>
+
+
+
+
+
+
+  <footer id="footer" class="section fp-auto-height">
+    <div class="footer_top">
+      <div class="inner">
+        <ul class="footer_link">
+          <li><a href="#">이용약관</a></li>
+          <li><a href="#">개인정보처리방침</a></li>
+          <li><a href="#">저작권보호정책</a></li>
+          <li><a href="#">키보드보안프로그램설치안내</a></li>
+        </ul>
+
+        <div class="footer_link02">
+          <div class="select_box01">
+            <select name="" id="">
+              <option value="부산공공도서관">부산공공도서관</option>
+              <option value="">2</option>
+              <option value="">3</option>
+            </select><input type="submit" value="이동">
+          </div>
+
+          <div class="select_box02">
+            <select name="" id="">
+              <option value="">타지역 도서관</option>
+              <option value="">2</option>
+              <option value="">3</option>
+            </select><input type="submit" value="이동">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer_bottom">
+      <div class="inner">
+        <div class="footer_logo">
+          <img src="../img/common/footer_logo.svg" alt="푸터로고">
+        </div>
+        <div class="copy">
+          <p>(46949) 부산광역시 사상구 사상로310번길 33(덕포동) 전화 051-310-5400 / 팩스 051-310-5429
+            <br>Copyright © Busan Metropolitan Library, All rights reserved.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+  </footer>
+
+  <div class="mgnb_wrap">
+    <ul class="mgnb">
+      <li><a href="#">부산도서관</a>
+        <ul class="mdepth2">
+          <li><a href="#">도서관 정책</a></li>
+          <li><a href="#">연혁</a></li>
+          <li><a href="#">도서관 내부</a></li>
+          <li><a href="#">찾아오는 길</a></li>
+        </ul><!-- depth2 -->
+      </li>
+      <li><a href="#">책대여</a>
+        <ul class="mdepth2">
+          <li><a href="#">책 검색</a></li>
+          <li><a href="#">추천하는 책</a></li>
+          <li><a href="#">대출이 많은 책</a></li>
+          <li><a href="#">새로 들어온 책</a></li>
+        </ul><!-- depth2 -->
+      </li>
+      <li><a href="#">도서관 소식</a>
+        <ul class="mdepth2">
+          <li><a href="#">문화 행사</a></li>
+          <li><a href="#">강좌 안내</a></li>
+          <li><a href="#">전시 행사</a></li>
+        </ul><!-- depth2 -->
+      </li>
+      <li><a href="#">후원</a>
+        <ul class="mdepth2">
+          <li><a href="#">후원소개</a></li>
+          <li><a href="#">후원신청</a></li>
+          <li><a href="#">기부금 영수증</a></li>
+        </ul><!-- depth2 -->
+      </li>
+      <li><a href="#">소통공간</a>
+        <ul class="mdepth2">
+          <li><a href="#">공지사항</a></li>
+          <li><a href="#">보도자료</a></li>
+          <li><a href="#">커뮤니티</a></li>
+          <li><a href="#">뉴스레터</a></li>
+        </ul><!-- depth2 -->
+      </li>
+    </ul><!-- gnb -->
+    <p class="mgnb_close"><a href="#">close</a></p>
+  </div>
+
+  <div class="search">
+    <input type="text" placeholder="검색어를 입력하세요"><input type="submit" class="search_close">
+  </div>
+</body>
+
+</html>
